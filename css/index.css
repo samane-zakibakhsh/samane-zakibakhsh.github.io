@@ -1,0 +1,76 @@
+@media all and (max-width:767px) {
+    .custom-bg {
+        background-image: url("../images/1.jpg");
+        background-size: cover;
+        background-position: center;
+        padding-left: 0;
+        padding-right: 0;
+        height: 500px;
+    }
+
+    .overlay {
+        backdrop-filter: blur(4px) brightness(60%);
+        padding: 8px;
+    }
+
+    h2 {
+        color: rgb(255, 255, 255);
+    }
+
+    p {
+        font-size: calc(1vw + 11px);
+        color: rgb(220, 220, 220);
+    }
+
+    span {
+        color: rgb(255, 255, 255);
+    }
+
+    h2,
+    p,
+    .caption-container {
+        margin: 16px 0;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1199px) {
+    p {
+        font-size: calc(0.75vw + 8px);
+    }
+
+    h2,
+    p,
+    .caption-container {
+        margin: 8px;
+    }
+}
+
+@media all and (min-width:1200px) {
+    /* .overlay {
+        padding-left: 8px;
+    } */
+
+    img {
+        width: 40%;
+    }
+
+    .content-section {
+        width: 60%;
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: justify;
+    }
+
+    span {
+        font-size: 12px;
+    }
+}
