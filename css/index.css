@@ -1,4 +1,7 @@
 /*@media all and (min-width:992px) {*/
+*{
+    box-sizing: border-box;
+}
     .custom-bg {
         background-image: url("../images/5.jpg");
         background-size: cover;
@@ -7,19 +10,32 @@
         height: 750px;
         box-sizing: border-box;
     }
-
-    .overlay {
-        height: 750px;
-        backdrop-filter: blur(3px) brightness(80%);
-       
+    .nav-link{
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-style: inherit;
+        font-family: "Vazirmatn", sans-serif;
+        text-align: center;
+        margin-top: 40px;
+        padding: 0px;
+        border: 0px;
+        
     }
 
-    .site-title{
+  /*  .overlay {
+        height: 750px;
+        backdrop-filter: blur(3px) brightness(80%);
+        margin-top: 0px;
+       
+    }*/
+
+    .site-title {
         color: rgb(255, 255, 255);
         font-family: "Noto Nastaliq Urdu", serif;
         /*font-family: "Vazirmatn", sans-serif;*/
         font-size: 64px;
-        margin-right: 30px;
+        text-align: end;
+        margin: 0px 20px;
         padding: 0px;
         font-style: normal;
         font-weight: 500px;
@@ -27,39 +43,82 @@
     
     }
 
-    p {
-        font-size: calc(2vw + 13PX);
-        width:100%;
+    pre {
+        font-size: calc(1vw + 8PX);
+        font-weight: 100px;
         font-family: "Noto Nastaliq Urdu", serif;
-        color: #dcdcdc;
+        color:rgb(255, 255, 255);
         text-align: center;
-        margin-top: auto;
-        padding: 0%;
+        margin-top: 100px;
+        line-height: 60px;
         
     }
 
-    .text1 p {
-        font-size: calc(2vw + 10px);
-        font-style: oblique;
-        font-family: "Vazirmatn", sans-serif;
-        color: #000;
-        text-align: center;
-        margin: 20px;
-        padding: 0px;
-        border: 0px;
+    .img1 { 
+    height: 69px;
+    padding: 0;
+    text-align: center;
+    margin-right: 40px;
     }
-    .imglogo1{
-    height: 100px;
-    padding: 0%;
-    margin-right: 200px;
-   
 
+.text1 {
+    font-size: calc(1vw + 9px);
+     font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px;
+    box-sizing: border-box;
     }
-    .imglogo2{
-    height: 116px;
-    padding: 0%;
-        
-    }
+.text2{
+    font-size: calc(1vw + 11px);
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: start;
+    margin-top: 30px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.text3 {
+ 
+    font-size: calc(1vw + 24px);
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.text4 {
+ 
+    font-size: calc(1vw + 14px);
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.text5 {
+ 
+    font-size: calc(1vw + 8PX);
+    font-weight: bold ;
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.text6 {
+ 
+    font-size: calc(1vw + 8PX);
+    font-weight: bold ;
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+
 /*}
 
 @media all and (max-width:991px){
