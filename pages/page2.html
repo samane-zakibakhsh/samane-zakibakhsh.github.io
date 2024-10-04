@@ -1,29 +1,495 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="fa">
+<html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/index.css">
+    <title>page2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Vazirmatn:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
     <div class="container-fluid">
         <div class="row">
-            <a href="../index.html">صفحه اول</a>
-          <p>helloooooo</p>
+            <div class="col-12 custom-bg p-0">
+                <nav class="navbar navbar-expand-lg justify-content-center fixed-top">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <form class="d-flex ">
+                                            <button class="btn bg-light text-black rounded-0" type="submit">خرید
+                                                پروژه‌های آماده </button>
+                                        </form>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-cart2 icon-white"></i></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">خانه</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="../index.html">نمای اول</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">نمای دوم</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">صفحات داخلی</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">درباره نمای اول</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="pages/page2.html">درباره نمای دوم</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">ارتباط بگیرید </a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        امکانات
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">خدمات</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">پادکست</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">رایگان</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">به زودی</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">سوالات</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">اینستراگرام</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">خبرنامه ها </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">توصیفات</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"> لیست قیمت</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">نمونه کارها </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">آرشیو نمونه کارها </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">طرح پروژه تک</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">وبلاگ </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">چیدمان چند پستی </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">چیدمان تک پستی</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">فروشگاه </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">چیدمان چند محصولی </a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">چیدمان تک محصولی</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="site-title-wrap">
+                    <h2 class="site-title d-flex d-none d-lg-block fixed-top">سمانه</h2>
+                    <br>
+                    <br>
+                    <pre>
+                                اگر نمیتوانید پرواز کنید، بدوید
+                                 اگر نمیتوانید بدوید، راه بروید
+                       اگر نمیتوانید راه بروید، سینه خیز بروید
+                 هر کاری که انجام می دهید باید رو به جلو باشید
+                            </pre>
+                    <div class="img1 d-flex mr-5 justify-content-center">
+                        <img src="images/icon-w.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="container-fluid custom-bg2">
+        <div class="row ">
+            <div class="col-3 text2">
+                <h5>تمرکز من</h5><br>
+                <h3>من سمانه ذکی بخش هستم، مهندس کامپیوتر و کارشناس ارشد MBA با روحیه همکاری در پروژه های گروهی، که
+                    خلاقیت و
+                    تجربه پانزده سال فعالیت را در پروژه‌هایم به کار می‌گیرم.</h3>
+                <div class="col-12 btn d-flex btn-sm p-0 justify-content-start mt-5">
+                    <i class="bi bi-facebook ml-3"></i>
+                    <i class="bi bi-instagram mx-3"></i>
+                    <i class="bi bi-linkedin mx-3"></i>
+                    <i class="bi bi-youtube mx-3"></i>
+                    <i class="bi bi-pinterest mx-3"></i>
+                </div>
+            </div>
+            <div class="col-5 offset-1 text3">
+                <p>برای تحویل یک پروژه در زمان مناسب و قیمت به صرفه، من می‌توانم موضوع را از دو جهت مورد بررسی قرار
+                    دهم:
+                    جنبه
+                    مالی و جنبه طراحی و پیاده‌سازی. بله برای داشتن یک کسب و کار موفق در پروژه‌های تیمی و انفرادی، من
+                    هستم که
+                    توانایی بررسی تحلیلگرانه را دارم و نتیجه نهایی قطعاً آنچه خواهد شد که شما را به اهدافتان نزدیک‌تر
+                    می‌نماید.
+                </p>
+                <h4> با تجربه 10 سال در حوزه ادمین و تحلیل سامانه‌های اداری در سازمان دولتی، هم اکنون با اشتیاق کامل
+                    آماده در
+                    اختیار قرار دادن دانش و تجربیاتم به شما هستم.</h4>
+            </div>
+        </div>
     </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text1">
+                <p>افتخار همکاری داشته ام با <br><br>
+                </p>
+            </div>
+            <div class="col-12 images d-flex flex-row justify-content-center">
+                <img src="images/sandogh.png">
+                <img src="images/parse.png">
+                <img src="images/dokhaniat.png">
+                <img src="images/divan.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-5 offset-1 mt-5 ml-3 justify-content-center">
+                <h3>من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم ادامه دهم.
+                </h3>
+                <h4>من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم ادامه دهم.
+                </h4>
+            </div>
+            <div class="col-6 d-flex p-0 m-0" style="height:450px;">
+                <img src="images/Hard-work.jpg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid custom-bg2" style="height:300px;">
+        <div class="row p-5">
+            <div class="col-5  mt-5">
+                <h2> با من در تماس باشید</h2>
+                <p>برای خبرنامه من ثبت نام کنید و به روز رسانی های دوره ای و کوپن ها را دریافت کنید.این امتیاز فقط برای
+                    مشترکین خبرنامه من محفوظ است.</p>
+            </div>
+            <div class="col-5 offset-1 mt-5 w-50">
+                <input class="email" type="email" name="mailAddress" placeholder="آدرس ایمیل شما" minlength="10"
+                    maxlength="20" style="width: 436px;">
+                <div class="col-12 w-100 ">
+                    <input class="submit" type="submit" value="اکنون بپیوندید " style="width: 436px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-start">
+            <div class="col-6 mr-5 mt-5">
+                <p>ارزشهای من</p>
+                <h2>3 خصوصیت درمورد من</h2>
+                <h4> من سختکوش هستم</h4>
+                <p>من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت سختکوشی هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم ادامه دهم.
+                </p><br>
+
+                <h4>مدیریت زمان برای من مهم است</h4>
+                <p>من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت سختکوشی هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم ادامه دهم.
+                </p><br>
+
+                <h4> افراد خوشرو را می‌پسندم </h4>
+                <p>من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت سختکوشی هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم ادامه دهم.
+                </p><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid custom-bg2" style="height:400px;">
+        <div class="row p-5">
+            <div class="col-6 mr-5 mt-5">
+                <h2>درمورد محیط کارم</h2>
+                <p>سمانه ذکی بخش </p>
+                <h6>برای تحویل یک پروژه در زمان مناسب و قیمت به صرفه، من می‌توانم موضوع را از دو جهت مورد بررسی قرار
+                    دهم:
+                    جنبه
+                    مالی و جنبه طراحی و پیاده‌سازی. بله برای داشتن یک کسب و کار موفق در پروژه‌های تیمی و انفرادی، من
+                    هستم که
+                    توانایی بررسی تحلیلگرانه را دارم و نتیجه نهایی قطعاً آنچه خواهد شد که شما را به اهدافتان نزدیک‌تر
+                    می‌نماید.
+                </h6>
+            </div>
+            <div class="col-6 mr-5 my-5">
+                <p>خدمات</p>
+                <h6>مشاوره شخصی و آموزش آنلاین</h6><br>
+                <p>زمان</p>
+                <h6>همه روزه ساعت 12 الی15</h6><br>
+                <p>مکان</p>
+                <h6>دیوان عدالت اداری</h6><br>
+                <p>ایمیل</p>
+                <h6>sa-zakibakhsh@gmail.com</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid custom-bg2">
+        <div class="row" style="justify-content: center;">
+
+            <div class="col-12 mb-5 mt-5 pt-0 text-center">
+                <h2>همان تغییری باشید که می‌خواهید در جهان مشاهده کنید</h2>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-12 mx-lg-4 mx-md-3 my-3">
+                <div class="img3 h-100 text-center">
+                    <img src="images/Slider1.jpg" class="card-img-top img-fluid">
+                    <div class="card-body mt-3">
+                        <h5>برای انجام هر کاری با تمام جزئیات تمرین و تکرار می‌تواند بسیار مؤثر می‌باشد.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-12 mx-lg-4 mx-md-3 my-3">
+                <div class="img3 h-100 text-center">
+                    <img src="images/it6.jpg" class="card-img-top img-fluid">
+                    <div class="card-body mt-3">
+                        <h5>برای انجام هر کاری با تمام جزئیات تمرین و تکرار می‌تواند بسیار مؤثر می‌باشد.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-12 mx-lg-4 mx-md-3 my-3">
+                <div class="img3 h-100 text-center">
+                    <img src="images/it5.jpg" class="card-img-top img-fluid">
+                    <div class="card-body mt-3">
+                        <h5>برای انجام هر کاری با تمام جزئیات تمرین و تکرار می‌تواند بسیار مؤثر می‌باشد.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid custom-bg2" style="height:200px;">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center mt-5">
+                <button class="btn btn-dark btn-lg mx-auto rounded-0">وبلاگ من را بخوانید</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid p-0">
+        <div class="row m-0 ">
+            <div class="col-4 d-flex p-0 w-50">
+                <img src="images/mypic2.jpg">
+            </div>
+            <div class="col-6 mt-5 w-50">
+                <h3>تمرکز من</h3>
+                <h4>من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت
+                    سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم
+                    ادامه
+                    دهم.
+                    من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت
+                    سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم
+                    ادامه
+                    دهم.
+                </h4>
+                <br><br>
+                <h6>من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت
+                    سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم
+                    ادامه
+                    دهم.
+                    من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت
+                    سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم
+                    ادامه
+                    دهم.
+                    من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت
+                    سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم
+                    ادامه
+                    دهم.
+                    من فردی سختکوش و اهل یادگیری هستم هرچند بعضی مواقع شرایط به گونه‌ای رقم می‌خورد که درنهایت
+                    سختکوشی
+                    هم
+                    نمی‌توان کاری از پیش برد، اما من سعی می‌کنم همیشه راهی پیدا کنم و در راه رسیدن به اهدافم
+                    ادامه
+                    دهم.
+                </h6><br>
+
+
+                <h6 class="mx-3" style="align-items: end;">به آخرین پادکست من گوش دهید.</h6>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid custom-bg3 m-0">
+        <div class="row w-100">
+            <div class="col-md-12 text-center">
+                <h2 class="titr">کلمات محبت‌آمیز</h2>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"
+                        style="width: 10px; height: 10px; background-color: #9e938b; border-radius: 50%; opacity: 100%;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                        style="width: 10px; height: 10px; background-color: #9e938b; border-radius: 50%; opacity: 100%; "></button>
+                </div>
+                <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-12  text-center">
+                                    <p class="lead">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ. لورم ایپسوم
+                                        متن
+                                        ساختگی با تولید سادگی
+                                        نامفهوم
+                                        از صنعت چاپ.
+                                    </p>
+                                    <h5 class="text6">جوئل</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <p class="lead">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ. لورم ایپسوم
+                                        متن
+                                        ساختگی با تولید سادگی
+                                        نامفهوم
+                                        از صنعت چاپ.
+                                    </p>
+                                    <h5 class="text6">لورا</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid custom-bg2" style="height:100px;">
+        <div class="row">
+            <div class="col-12 d-flex mt-5">
+                <h3 class="text7 mx-3">برای شروع همکاری حاضرید؟</h3>
+                <i class="bi bi-arrow-up-left bi-larger"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid custom-bg2">
+        <div class="row m-0 p-0">
+            <div class="col-3 mt-5">
+                <h2>قوانین</h2>
+                <h3>سیاست حفظ حریم خصوصی</h3>
+                <h3>شرایط و ضوابط</h3>
+                <h3>بازپرداخت</h3>
+                <h3>تماس بگیرید</h3>
+                <h3>وبلاگ</h3>
+            </div>
+            <div class=" col-3 offset-1 mt-5">
+                <h2>فروشگاه</h2>
+                <h3>سیاست حفظ حریم خصوصی</h3>
+                <h3>شرایط و ضوابط</h3>
+                <h3>بازپرداخت</h3>
+                <h3>تماس بگیرید</h3>
+                <h3>وبلاگ</h3>
+            </div>
+
+            <div class="col-3 offset-1 mt-5">
+                <h2>سمانه ذکی بخش</h2>
+                <h3>من سمانه ذکی بخش هستم، مهندس کامپیوتر و کارشناس ارشد MBA با روحیه همکاری در پروژه های گروهی،
+                    که
+                    خلاقیت و
+                    تجربه پانزده سال فعالیت را در پروژه‌هایم به کار می‌گیرم.</h3>
+                <div class="col-12 btn d-flex btn-lg p-0 justify-content-end mt-5">
+                    <i class="bi bi-facebook ml-3"></i>
+                    <i class="bi bi-instagram mx-3"></i>
+                    <i class="bi bi-linkedin mx-3"></i>
+                    <i class="bi bi-youtube mx-3"></i>
+                    <i class="bi bi-pinterest"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 </body>
 
