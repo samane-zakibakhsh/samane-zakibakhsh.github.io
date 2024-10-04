@@ -123,7 +123,7 @@ pre {
     background-color: #f1ebe9;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 750px;
     box-sizing: border-box;
 }
 
@@ -149,6 +149,14 @@ pre {
 }
 
 .custom-bg3 {
+    background-color: #cdcdcd;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.custom-bg4 {
     background-image: url("../images/img2.jpg");
     background-size: cover;
     background-position: center;
