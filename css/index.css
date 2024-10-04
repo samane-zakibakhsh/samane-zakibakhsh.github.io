@@ -162,8 +162,9 @@ pre {
     background-image: url("../images/img2.jpg");
     background-size: cover;
     background-position: center;
-    padding: 0;
     height: 750px;
+    margin: 0px;
+    padding: 0;
     box-sizing: border-box;
 }
 
