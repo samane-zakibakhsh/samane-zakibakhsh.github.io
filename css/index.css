@@ -1,4 +1,3 @@
-/*@media all and (min-width:992px) {*/
 * {
     box-sizing: border-box;
 }
@@ -9,40 +8,6 @@
     background-position: center;
     padding: 0;
     height: 750px;
-    box-sizing: border-box;
-}
-
-.nav-link {
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    font-style: inherit;
-    font-family: "Vazirmatn", sans-serif;
-    text-align: center;
-    margin-top: 40px;
-    padding: 0px;
-    border: 0px;
-
-}
-
-/*  .overlay {
-        height: 750px;
-        backdrop-filter: blur(3px) brightness(80%);
-        margin-top: 0px;
-       
-    }*/
-
-.site-title {
-    color: rgb(255, 255, 255);
-    font-family: "Noto Nastaliq Urdu", serif;
-    /*font-family: "Vazirmatn", sans-serif;*/
-    font-size: 64px;
-    text-align: end;
-    margin: 0px 20px;
-    padding: 0px;
-    font-style: normal;
-    font-weight: 500px;
-    box-sizing: border-box;
-
 }
 
 pre {
@@ -53,13 +18,6 @@ pre {
     text-align: center;
     margin-top: 100px;
     line-height: 60px;
-
-}
-
-.img1 {
-    height: 69px;
-    padding: 0;
-    text-align: center;
 }
 
 .text1 {
@@ -71,34 +29,6 @@ pre {
     font-weight: bold;
     letter-spacing: 1px;
     padding: 104px 0px 0px 0px;
-    box-sizing: border-box;
-}
-
-.images {
-    height: 200px;
-    margin-bottom: 104px;
-}
-
-.text2 {
-    font-size: calc(1vw + 12px);
-    font-family: "Vazirmatn", sans-serif;
-    color: rgb(0, 0, 0);
-    text-align: start;
-    font-weight: bold;
-    margin-top: 100px;
-    padding: 0px;
-    box-sizing: border-box;
-
-}
-
-.text3 {
-
-    font-size: calc(1vw + 10px);
-    font-family: "Vazirmatn", sans-serif;
-    color: rgb(0, 0, 0);
-    margin-top: 120px;
-    margin-bottom: 32px;
-    box-sizing: border-box;
 }
 
 .text4 {
@@ -112,20 +42,9 @@ pre {
     padding-bottom: 64px;
 }
 
-.btn {
-    align-items: normal;
-    position: static;
-    z-index: auto;
-    box-sizing: border-box;
-}
-
-
 .custom-bg2 {
     background-color: #f1ebe9;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    box-sizing: border-box;
+    height: 500px;
 }
 
 .text5 {
@@ -135,12 +54,10 @@ pre {
     text-align: start;
     font-weight: bold;
     margin-top: 100px;
-    box-sizing: border-box;
-
 }
 
 .label1 {
-    font-size: 24px;
+    font-size: calc(1vw + 10px);
     font-weight: bold;
     color: rgb(0, 0, 0);
     margin-top: 150px;
@@ -148,76 +65,192 @@ pre {
 
 .email {
     width: 335px;
-    font-size: 24px;
+    font-size: calc(1vw + 10px);
 }
 
 .submit {
     width: 167px;
-    font-size: 24px;
+    font-size: calc(1vw + 10px);
     color: rgb(255, 255, 255);
     background-color: black;
 }
 
-.custom-bg3 {
-    background-image: url("../images/img2.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 750px;
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-}
+@media all and (min-width:992px) {
 
-.titr {
-    margin-top: 200px;
-    font-size: 48px;
-    font-weight: bolder;
-    color: rgb(250, 250, 250);
-    align-items: center;
-}
+    .nav-link {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-style: inherit;
+        font-family: "Vazirmatn", sans-serif;
+        text-align: center;
+        margin-top: 40px;
+        padding: 0px;
+        border: 0px;
+    }
 
-.lead {
-    margin-top: 150px;
-    font-size: 24px;
-    color: rgb(250, 250, 250);
-    align-items: center;
-}
+    .site-title {
+        color: rgb(255, 255, 255);
+        font-family: "Noto Nastaliq Urdu", serif;
+        font-size: 64px;
+        text-align: end;
+        margin: 0px 20px;
+        padding: 0px;
+        font-style: normal;
+        font-weight: 500px;
+        box-sizing: border-box;
+    }
 
-.text6 {
-    margin-top: 30px;
-    color: rgb(250, 250, 250);
+    .img1 {
+        height: 69px;
+    }
 
-}
+    .images {
+        height: 200px;
+        margin-bottom: 104px;
+    }
 
-.text7 {
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    align-items: start;
-}
+    .text2 {
+        font-size: calc(1vw + 12px);
+        font-family: "Vazirmatn", sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: start;
+        font-weight: bold;
+        margin-top: 100px;
+        padding: 0px;
+    }
 
+    .text3 {
 
+        font-size: calc(1vw + 10px);
+        font-family: "Vazirmatn", sans-serif;
+        color: rgb(0, 0, 0);
+        margin-top: 120px;
+        margin-bottom: 32px;
+    }
 
-
-/*}
-
-@media all and (max-width:991px){
-    .custom-bg {
-        background-image: url("../images/4.jpg");
+    .custom-bg3 {
+        background-image: url("../images/img2.jpg");
         background-size: cover;
         background-position: center;
-        padding-left: 0;
-        padding-right: 0;
-        height: 900px;
+        height: 750px;
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
     }
-    p {
-        font-size: calc(0.75vw + 12px);
-        font-family: "Noto Nastaliq Urdu", serif;
-        color: #dcdcdc;
-        line-height: 18px;
-        text-align: center;
-        margin: auto;
+
+    .titr {
+        margin-top: 200px;
+        font-size: 48px;
+        font-weight: bolder;
+        color: rgb(250, 250, 250);
+        align-items: center;
     }
-   
+
+    .lead {
+        margin-top: 150px;
+        font-size: 24px;
+        color: rgb(250, 250, 250);
+        align-items: center;
+    }
+
+    .text6 {
+        margin-top: 30px;
+        color: rgb(250, 250, 250);
+
+    }
+
+    .text7 {
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+        align-items: start;
+    }
+
+    .hr1 {
+        color: black;
+    }
+}
 
 
-}*/
+@media all and (max-width:991px) {
+
+    .nav-link {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-style: inherit;
+        font-family: "Vazirmatn", sans-serif;
+        text-align: start;
+        padding: 0px;
+    }
+
+    .img1 {
+        height: 69px;
+    }
+
+    .images {
+        height: 200px;
+        margin-bottom: 104px;
+    }
+
+    .text2 {
+        font-size: calc(1vw + 12px);
+        font-family: "Vazirmatn", sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: start;
+        font-weight: bold;
+        margin-top: 100px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .text3 {
+
+        font-size: calc(1vw + 10px);
+        font-family: "Vazirmatn", sans-serif;
+        color: rgb(0, 0, 0);
+        margin-top: 120px;
+        margin-bottom: 32px;
+        box-sizing: border-box;
+    }
+
+    .custom-bg3 {
+        background-image: url("../images/img2.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 750px;
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .titr {
+        margin-top: 200px;
+        font-size: 48px;
+        font-weight: bolder;
+        color: rgb(250, 250, 250);
+        align-items: center;
+    }
+
+    .lead {
+        margin-top: 150px;
+        font-size: 24px;
+        color: rgb(250, 250, 250);
+        align-items: center;
+    }
+
+    .text6 {
+        margin-top: 30px;
+        color: rgb(250, 250, 250);
+
+    }
+
+    .text7 {
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+        align-items: start;
+    }
+
+    .hr1 {
+        color: black;
+    }
+
+}
