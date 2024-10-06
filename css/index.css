@@ -98,6 +98,11 @@ pre {
     height: 100px;
 }
 
+.custom-bg7 {
+    background-color: #f1ebe9;
+    height: 450px;
+}
+
 .custom-position {
     right: 1opx;
     top: 10px;
@@ -137,7 +142,7 @@ pre {
     }
 
     .text2 {
-        font-size: calc(1vw + 12px);
+        font-size: calc(1vw + 10px);
         font-family: "Vazirmatn", sans-serif;
         color: rgb(0, 0, 0);
         text-align: start;
@@ -148,7 +153,7 @@ pre {
 
     .text3 {
 
-        font-size: calc(1vw + 10px);
+        font-size: calc(1vw + 8px);
         font-family: "Vazirmatn", sans-serif;
         color: rgb(0, 0, 0);
         margin-top: 120px;
