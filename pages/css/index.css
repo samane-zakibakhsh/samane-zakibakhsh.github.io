@@ -9,6 +9,7 @@
     height: 750px;
 }
 
+
 pre {
     font-size: calc(1vw + 8PX);
     font-weight: 100px;
@@ -31,6 +32,35 @@ pre {
     padding: 104px 0px 0px 0px;
 }
 
+.img1 {
+    height: 69px;
+    padding: 0;
+    text-align: center;
+}
+
+.images {
+    height: 200px;
+    margin-bottom: 104px;
+}
+
+.text2 {
+    font-size: calc(1vw + 12px);
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: start;
+    font-weight: bold;
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.text3 {
+
+    font-size: calc(1vw + 8px);
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
 
 .custom-bg2 {
     background-color: #f1ebe9;
@@ -70,8 +100,53 @@ pre {
     top: 10px;
 }
 
-@media all and (min-width:991px) {
+.label1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 150px;
+}
 
+.email {
+    width: 335px;
+    font-size: 24px;
+}
+
+.submit {
+    width: 167px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.titr {
+    margin-top: 200px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgb(250, 250, 250);
+    align-items: center;
+}
+
+.lead {
+    margin-top: 150px;
+    font-size: 24px;
+    color: rgb(250, 250, 250);
+    align-items: center;
+}
+
+.text6 {
+    margin-top: 30px;
+    color: rgb(250, 250, 250);
+
+}
+
+.text7 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    align-items: start;
+}
+
+@media all and (min-width:992px) {
     .nav-link {
         color: rgb(0, 0, 0);
         font-size: 24px;
@@ -94,82 +169,6 @@ pre {
         font-style: normal;
         font-weight: 500px;
     }
-
-    .img1 {
-        height: 69px;
-        padding: 0;
-        text-align: center;
-    }
-
-    .images {
-        height: 200px;
-        margin-bottom: 104px;
-    }
-
-    .text2 {
-        font-size: calc(1vw + 12px);
-        font-family: "Vazirmatn", sans-serif;
-        color: rgb(0, 0, 0);
-        text-align: start;
-        font-weight: bold;
-        margin-top: 100px;
-        padding: 0px;
-    }
-
-    .text3 {
-
-        font-size: calc(1vw + 8px);
-        font-family: "Vazirmatn", sans-serif;
-        color: rgb(0, 0, 0);
-        margin-top: 100px;
-        margin-bottom: 32px;
-    }
-
-    .label1 {
-        font-size: 24px;
-        font-weight: bold;
-        color: rgb(0, 0, 0);
-        margin-top: 150px;
-    }
-
-    .email {
-        width: 335px;
-        font-size: 24px;
-    }
-
-    .submit {
-        width: 167px;
-        font-size: 24px;
-        color: rgb(255, 255, 255);
-        background-color: black;
-    }
-
-    .titr {
-        margin-top: 200px;
-        font-size: 48px;
-        font-weight: bolder;
-        color: rgb(250, 250, 250);
-        align-items: center;
-    }
-
-    .lead {
-        margin-top: 150px;
-        font-size: 24px;
-        color: rgb(250, 250, 250);
-        align-items: center;
-    }
-
-    .text6 {
-        margin-top: 30px;
-        color: rgb(250, 250, 250);
-
-    }
-
-    .text7 {
-        font-size: 24px;
-        color: rgb(0, 0, 0);
-        align-items: start;
-    }
 }
 
 @media all and (max-width:991px) {
@@ -182,4 +181,6 @@ pre {
         text-align: start;
         padding: 0px;
     }
+
+
 }

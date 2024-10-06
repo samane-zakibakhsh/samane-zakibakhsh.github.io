@@ -31,6 +31,15 @@ pre {
     padding: 104px 0px 0px 0px;
 }
 
+.img1 {
+    height: 69px;
+}
+
+.images {
+    height: 200px;
+    margin-bottom: 104px;
+}
+
 .text4 {
 
     font-size: calc(1vw + 10px);
@@ -108,6 +117,57 @@ pre {
     top: 10px;
 }
 
+.hr1 {
+    color: black;
+}
+
+.text2 {
+    font-size: calc(1vw + 10px);
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: start;
+    font-weight: bold;
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.text3 {
+
+    font-size: calc(1vw + 8px);
+    font-family: "Vazirmatn", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 120px;
+    margin-bottom: 32px;
+}
+
+
+.titr {
+    margin-top: 200px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgb(250, 250, 250);
+    align-items: center;
+}
+
+.lead {
+    margin-top: 150px;
+    font-size: 24px;
+    color: rgb(250, 250, 250);
+    align-items: center;
+}
+
+.text7 {
+    margin-top: 30px;
+    color: rgb(250, 250, 250);
+
+}
+
+.text8 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    align-items: start;
+}
+
 @media all and (min-width:992px) {
 
     .nav-link {
@@ -132,65 +192,12 @@ pre {
         font-weight: 500px;
     }
 
-    .img1 {
-        height: 69px;
-    }
-
-    .images {
-        height: 200px;
-        margin-bottom: 104px;
-    }
-
-    .text2 {
-        font-size: calc(1vw + 10px);
-        font-family: "Vazirmatn", sans-serif;
-        color: rgb(0, 0, 0);
-        text-align: start;
-        font-weight: bold;
-        margin-top: 100px;
-        padding: 0px;
-    }
-
-    .text3 {
-
-        font-size: calc(1vw + 8px);
-        font-family: "Vazirmatn", sans-serif;
-        color: rgb(0, 0, 0);
-        margin-top: 120px;
-        margin-bottom: 32px;
+    .img2 {
+        width: 770px;
+        padding-left: 0;
     }
 
 
-    .titr {
-        margin-top: 200px;
-        font-size: 48px;
-        font-weight: bolder;
-        color: rgb(250, 250, 250);
-        align-items: center;
-    }
-
-    .lead {
-        margin-top: 150px;
-        font-size: 24px;
-        color: rgb(250, 250, 250);
-        align-items: center;
-    }
-
-    .text7 {
-        margin-top: 30px;
-        color: rgb(250, 250, 250);
-
-    }
-
-    .text8 {
-        font-size: 24px;
-        color: rgb(0, 0, 0);
-        align-items: start;
-    }
-
-    .hr1 {
-        color: black;
-    }
 }
 
 
@@ -205,65 +212,15 @@ pre {
         padding: 0px;
     }
 
-    .img1 {
-        height: 69px;
-    }
 
-    .images {
-        height: 200px;
-        margin-bottom: 104px;
-    }
+    .img2 {
 
-    .text2 {
-        font-size: calc(1vw + 12px);
-        font-family: "Vazirmatn", sans-serif;
-        color: rgb(0, 0, 0);
-        text-align: start;
-        font-weight: bold;
-        margin-top: 100px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-
-    .text3 {
-
-        font-size: calc(1vw + 10px);
-        font-family: "Vazirmatn", sans-serif;
-        color: rgb(0, 0, 0);
-        margin-top: 120px;
-        margin-bottom: 32px;
-        box-sizing: border-box;
-    }
-
-    .titr {
-        margin-top: 200px;
-        font-size: 48px;
-        font-weight: bolder;
-        color: rgb(250, 250, 250);
-        align-items: center;
-    }
-
-    .lead {
-        margin-top: 150px;
-        font-size: 24px;
-        color: rgb(250, 250, 250);
-        align-items: center;
-    }
-
-    .text7 {
-        margin-top: 30px;
-        color: rgb(250, 250, 250);
+        width: 800px;
+        padding: 0;
+        margin-right: 0;
+        justify-content: center;
 
     }
 
-    .text8 {
-        font-size: 24px;
-        color: rgb(0, 0, 0);
-        align-items: start;
-    }
-
-    .hr1 {
-        color: black;
-    }
 
 }
