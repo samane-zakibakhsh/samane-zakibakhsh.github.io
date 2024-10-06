@@ -38,7 +38,6 @@ pre {
     color: rgb(0, 0, 0);
     font-style: normal;
     font-weight: bold;
-    box-sizing: border-box;
     padding-bottom: 64px;
 }
 
@@ -75,6 +74,35 @@ pre {
     background-color: black;
 }
 
+.custom-bg3 {
+    background-color: #f1ebe9;
+    height: 600px;
+}
+
+.custom-bg4 {
+    background-color: #f1ebe9;
+    height: 200px;
+}
+
+.custom-bg5 {
+    background-image: url("../images/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    margin: 0px;
+    padding: 0;
+}
+
+.custom-bg6 {
+    background-color: #f1ebe9;
+    height: 100px;
+}
+
+.custom-position {
+    right: 1opx;
+    top: 10px;
+}
+
 @media all and (min-width:992px) {
 
     .nav-link {
@@ -97,7 +125,6 @@ pre {
         padding: 0px;
         font-style: normal;
         font-weight: 500px;
-        box-sizing: border-box;
     }
 
     .img1 {
@@ -128,15 +155,6 @@ pre {
         margin-bottom: 32px;
     }
 
-    .custom-bg3 {
-        background-image: url("../images/img2.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 750px;
-        margin: 0px;
-        padding: 0;
-        box-sizing: border-box;
-    }
 
     .titr {
         margin-top: 200px;
@@ -153,13 +171,13 @@ pre {
         align-items: center;
     }
 
-    .text6 {
+    .text7 {
         margin-top: 30px;
         color: rgb(250, 250, 250);
 
     }
 
-    .text7 {
+    .text8 {
         font-size: 24px;
         color: rgb(0, 0, 0);
         align-items: start;
@@ -212,16 +230,6 @@ pre {
         box-sizing: border-box;
     }
 
-    .custom-bg3 {
-        background-image: url("../images/img2.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 750px;
-        margin: 0px;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     .titr {
         margin-top: 200px;
         font-size: 48px;
@@ -237,13 +245,13 @@ pre {
         align-items: center;
     }
 
-    .text6 {
+    .text7 {
         margin-top: 30px;
         color: rgb(250, 250, 250);
 
     }
 
-    .text7 {
+    .text8 {
         font-size: 24px;
         color: rgb(0, 0, 0);
         align-items: start;
